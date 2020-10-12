@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14716967100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user shuold able to navigate to categories",
+        "description": "",
+        "id": "user-should-navigate-to-different-categories;user-shuold-able-to-navigate-to-categories",
+        "after": [
+          {
+            "result": {
+              "duration": 1178792600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1048449900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on homepage",
+            "match": {
+              "location": "MyStepDefs.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7526852700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on women category",
+            "match": {
+              "location": "MyStepDefs.user_click_on_women_category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4233589000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on top category",
+            "match": {
+              "location": "MyStepDefs.user_click_on_top_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 678879700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see",
+            "match": {
+              "location": "MyStepDefs.user_should_see()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@trial"
+          }
+        ]
+      }
+    ],
+    "name": "user should navigate to different categories",
+    "description": "",
+    "id": "user-should-navigate-to-different-categories",
+    "keyword": "Feature",
+    "uri": "src/test/Resourse/Features/Homepage.feature"
+  }
+]
